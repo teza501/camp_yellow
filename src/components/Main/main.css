@@ -1,0 +1,115 @@
+.main-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px;
+    margin-top: -90px;
+  }
+  
+  .main-left-side {
+    width: 50%;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    left: 6%;
+  }
+  
+  .main-left-side input {
+    padding: 15px 20px;
+    background-color: transparent;
+    border: 2px solid rgb(217, 214, 214);
+    border-radius: 5px;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  ::-webkit-input-placeholder { 
+    color: #fff;
+  }
+
+  .main-left-side p {
+    font-size: 27px;
+    margin-bottom: 10px;
+  }
+  
+  .btn-div {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  
+  .btn-div button {
+    padding: 10px 20px;
+    background-color: #5105d3;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 15px 40px;
+  }
+  
+  
+  
+  .main-left-side a {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #2196f3;
+  }
+  
+  .main-left-side a:hover {
+    text-decoration: underline;
+  }
+.add-game-btn{
+    flex: 1 1 auto;
+    margin: 10px;
+    margin-left: 0px;
+    padding: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+   /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #7b4397 0%, #dc2430  51%, #7b4397  100%);
+     }
+  
+  .main-right-side {
+    width: 45%;
+    height: 0;
+    left: 10%;
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  }
+  
+  .main-right-side iframe {
+    position: absolute;
+    top: 23%;
+    left: 0;
+    width: 60%;
+    height: 50vh;
+    border-radius: 10px;
+  }
+  .main-right-side p{
+    display: flex;
+    margin-top: 85%;
+    font-size: 18px;
+    padding-left: 4rem;
+
+  }
+
+  hr{
+    width:80%; 
+    height:1px;
+    background: #fff;
+    bottom: 10px;
+    position: absolute;
+    margin-left: 120px;
+
+  }

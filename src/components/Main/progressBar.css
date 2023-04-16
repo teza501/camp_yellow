@@ -1,0 +1,39 @@
+.container{
+    width: 100px;
+}
+.progress-bar{
+    width: 250px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #e6e6ef;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+}
+
+.progress-bar-fill{
+    height: 100%;
+    border-radius: 10px;
+    background-color: #5105d3;
+    transition: width 0.5s ease-out;
+}
+
+.progress-label{
+    margin-top: 10px;
+    font-size: 15px;
+
+}
+
+.progress-bar-btn{
+    background-color: #5105d3;
+    border-radius: 6px;
+    border: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-size: 18px;
+    height: 40px;
+    outline: 0;
+    text-align: center;
+    margin-right: 10px;
+    margin-top: 15px;
+}
